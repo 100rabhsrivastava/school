@@ -1,0 +1,115 @@
+.para{
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  font-family: 'Electrolize', sans-serif;
+}
+.head{
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+}
+.quote{
+ justify-content: center;
+}
+.cards{
+  background-color:tomato;
+
+}
+.cards0{
+  background-color:#fbb63d;
+
+}
+.cards1{
+  background-color:#1cc3b0;
+
+}
+.iconss{
+  position: absolute;
+  top:-20%;
+ left: 41%;
+  font-size: 50px;
+  color: whitesmoke;
+  background-color: tomato;
+  padding-top: 13px;
+  padding-top: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 50%;
+ 
+}
+.iconss0{
+  position: absolute;
+  top:-20%;
+ left: 41%;
+  font-size: 50px;
+  color: whitesmoke;
+  background-color: #fbb63d;
+  padding-top: 13px;
+  padding-right: 13px;
+  
+  border-radius: 50%;
+/* border-top-left-radius: 0%;
+border-top-right-radius: 0%; */
+ 
+}
+.iconss1{
+  position: absolute;
+  top:-20%;
+ left: 41%;
+  font-size: 50px;
+  color: whitesmoke;
+  background-color: #1cc3b0;
+  padding-top: 13px;
+  padding-right: 13px;
+  padding-left: 13px;
+  border-radius: 50%;
+}
+.tit{
+  margin-top:20px;
+}
+.cards:hover{
+ 
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+ .phone{
+   background-color: violet;
+   display: inline;
+ }
+ .cards{
+  width: 260px;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
