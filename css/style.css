@@ -84,7 +84,7 @@ border-top-right-radius: 0%; */
  
   
   width: 230px;
-  height: 320px;
+  height: 300px;
   padding-bottom: 5px;
   background-color: #fbb63d;
   overflow: hidden;
@@ -92,11 +92,11 @@ border-top-right-radius: 0%; */
 .apna-img{
  
 width: 230px;
-height: 200px;
-overflow: hidden;
+height: 100px;
+/* overflow: hidden; */
 }
 .apna-img:hover{
-
+filter: blur(5);
   transform: scale(1.4);
 }
 @media screen and (max-width: 480px) {
