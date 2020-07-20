@@ -69,7 +69,7 @@ border-top-right-radius: 0%; */
 
   font-size: 60px;
   padding: 10px;
-  padding-left: 60px;
+  padding-left: 10px;
 }
 .tit{
   margin-top:20px;
@@ -142,7 +142,7 @@ border-top-right-radius: 0%; */
 }
 .ent-but:hover{
   border-style: none;
-
+color: white;
 outline-style: none;
   text-decoration: none;
   border: 2px solid #ef6c00 ;
@@ -167,8 +167,8 @@ outline-style: none;
   to {opacity: 0.0;}
 }
 .blink{
-  padding: 8px;
-  font-size: 20px;
+  padding: 5px;
+  font-size: 17px;
    color: white;
    font-weight: 800;
    background-color: #4e342e;
@@ -188,8 +188,16 @@ outline-style: none;
   color: black;
   font-size: 18px;
   font-weight: 400;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
+  font-family: 'Electrolize', sans-serif;
+}
+.adm-heads{
+padding-top: 15px;
+  font-size: 14px;
+  font-weight: 300;
+
+  text-align: justify;
   font-family: 'Electrolize', sans-serif;
 }
 
