@@ -82,7 +82,7 @@ border-top-right-radius: 0%; */
   overflow-x: scroll;
   margin-top: 10px;
   margin-bottom: 30px;
-  background-color: tomato;
+  background-color: #ff9800 ;
   padding: 15px;
 
 }
@@ -91,7 +91,7 @@ border-top-right-radius: 0%; */
   padding: 10px;
   background-color: honeydew;
   width: 250px;
-  height: 270px;
+  height: auto;
 }
 .pic{
  margin-top: 10px;
@@ -104,7 +104,40 @@ border-top-right-radius: 0%; */
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
 }
+.ent-name{
+  padding: 5px;
+  text-align: center;
+  font-weight: 800;
+  font-family: 'Electrolize', sans-serif;
+}
+.ent-but{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ text-decoration: none;
+  border-style: none;
+  color: white;
+  font-family: 'Electrolize', sans-serif;;
+  
+}
+.ent-buts{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ padding: 5px;
+  color: white;
+  font-weight: 800;
+  font-family: 'Electrolize', sans-serif;;
+  
+}
+.ent-but:hover{
+  border-style: none;
 
+outline-style: none;
+  text-decoration: none;
+  border: 2px solid tomato;
+ outline-style: none;
+}
 @media screen and (max-width: 480px) {
  .phone{
    background-color: violet;
