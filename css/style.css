@@ -76,17 +76,26 @@ border-top-right-radius: 0%; */
   .card {
     display: inline-block;
   }
+  .ents{
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #ff9800 ;
+    padding: 15px;
+  
+  }
 
 .ent{
   display: flex;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   background-color: #ff9800 ;
   padding: 15px;
 
 }
 .events{
+  border-radius: 20px;
  margin: 15px;
   padding: 10px;
   background-color: honeydew;
@@ -98,8 +107,8 @@ border-top-right-radius: 0%; */
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  height: 170px;
+  width: 220px;
+  height: 190px;
   border: 4px solid tomato;
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -143,6 +152,9 @@ outline-style: none;
 }
 .logo-container:hover{
   width: 200px;
+}
+.ent{
+  overflow-x: scroll;
 }
 }
 
