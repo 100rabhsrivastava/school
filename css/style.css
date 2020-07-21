@@ -199,6 +199,7 @@ padding-top: 15px;
 
   text-align: justify;
   font-family: 'Electrolize', sans-serif;
+
 }
 .five{
 
@@ -237,6 +238,30 @@ header div img {
   header { padding: 10px; }
   
 }
+/*  */
+.bread-head{
+
+top: -15%;
+
+text-align: center;
+color:white;
+font-size: 68px;
+font-weight: 400;
+font-family: 'Electrolize', sans-serif;
+font-family: 'Bree Serif', serif;
+}
+.bread-heads{
+  position: absolute;;
+  top: 29%;
+  left: 43%;
+  text-align: center;
+  color:white;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'Electrolize', sans-serif;
+  
+  }
+
 @media screen and (max-width: 480px) {
  .phone{
    background-color: violet;
