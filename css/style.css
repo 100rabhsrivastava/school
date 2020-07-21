@@ -200,7 +200,13 @@ padding-top: 15px;
   text-align: justify;
   font-family: 'Electrolize', sans-serif;
 }
+.five{
 
+  /* margin: 20px; */
+}
+.two{
+  display: none;
+}
 @media screen and (max-width: 480px) {
  .phone{
    background-color: violet;
@@ -222,6 +228,13 @@ padding-top: 15px;
 @media screen and (max-width: 1040px) {
 .ent{
   overflow-x: scroll;
+}
+.five{
+  display: none;
+}
+.two{
+  display:inherit;
+
 }
 
 }
