@@ -240,9 +240,9 @@ header div img {
 }
 /*  */
 .bread-head{
-
-top: -15%;
-
+position: absolute;
+top: 20%;
+margin: 20px;
 text-align: center;
 color:white;
 font-size: 68px;
@@ -250,10 +250,20 @@ font-weight: 400;
 font-family: 'Electrolize', sans-serif;
 font-family: 'Bree Serif', serif;
 }
+.bread-line{
+  position: absolute;
+  top: 69%;
+  width: 500px;
+  height: 100px;
+  margin-left: 25px;
+  font-size: 30px;
+  color: white;
+}
 .bread-heads{
   position: absolute;;
-  top: 29%;
-  left: 43%;
+  top: 35%;
+  margin-left: 17px;
+  padding: 20px;
   text-align: center;
   color:white;
   font-size: 28px;
@@ -261,7 +271,20 @@ font-family: 'Bree Serif', serif;
   font-family: 'Electrolize', sans-serif;
   
   }
-
+.sec{
+  background-color: #ffc107;
+}
+.sec-head{
+  /* padding: 20px; */
+  font-size: 22px;
+  color:black;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'Electrolize', sans-serif;
+}
+.sec-but{
+  
+}
 @media screen and (max-width: 480px) {
  .phone{
    background-color: violet;
